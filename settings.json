@@ -1,0 +1,43 @@
+{
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#f1f1f170",
+    "terminalCursor.foreground": "#f1f1f170"
+  },
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": true,
+  "window.zoomLevel": 1,
+  "workbench.sideBar.location": "left",
+  "workbench.editor.showTabs": "single",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.guides.indentation": false,
+  "indenticator.width": 4.1,
+  "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.commandsToSkipShell": [
+    "code"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.matchBrackets": "never",
+  "breadcrumbs.enabled": false,
+  "editor.glyphMargin": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "editor.lineNumbers": "relative",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.scrollBeyondLastLine": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "window.customTitleBarVisibility": "never",
+  "workbench.colorTheme": "One Dark Pro Night Flat"
+}
