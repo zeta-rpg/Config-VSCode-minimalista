@@ -1,43 +1,72 @@
 {
-  "editor.cursorStyle": "block",
-  "editor.cursorBlinking": "solid",
+  // Cursor
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  // Colores del cursor
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#f1f1f170",
-    "terminalCursor.foreground": "#f1f1f170"
+    "editorCursor.foreground": "#f1f1f1",
+    "editorCursor.background": "#000000",
+    "terminalCursor.foreground": "#ffffff",
+    "[Monokai]": {
+      "editor.background": "#272822",
+      "sideBar.background": "#272822",
+      "activityBar.background": "#1e1e1e",
+      "statusBar.background": "#1e1e1e",
+      "panel.background": "#1e1e1e"
+    },
   },
-  "terminal.integrated.cursorStyle": "block",
-  "terminal.integrated.cursorBlinking": true,
   "window.zoomLevel": 1,
-  "workbench.sideBar.location": "left",
-  "workbench.editor.showTabs": "single",
   "editor.minimap.enabled": false,
   "editor.scrollbar.vertical": "hidden",
-  "editor.overviewRulerBorder": false,
-  "editor.hideCursorInOverviewRuler": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
   "editor.guides.bracketPairs": "active",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.guides.indentation": false,
-  "indenticator.width": 4.1,
-  "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.commandsToSkipShell": [
-    "code"
-  ],
-  "workbench.iconTheme": "material-icon-theme",
   "editor.matchBrackets": "never",
+  "editor.hideCursorInOverviewRuler": true,
+  // Terminal
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // Explorador y barras
+  "workbench.sideBar.location": "left",
+  "workbench.editor.showTabs": "single",
   "breadcrumbs.enabled": false,
-  "editor.glyphMargin": false,
-  "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "editor.lineNumbers": "relative",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.scrollBeyondLastLine": false,
   "workbench.activityBar.location": "hidden",
+  "zenMode.hideActivityBar": true,
+  "workbench.iconTheme": "vs-seti",
+  "files.autoSave": "afterDelay",
+  "editor.cursorSurroundingLinesStyle": "all",
+  "editor.formatOnSave": true,
+  "window.menuBarVisibility": "hidden",
+  "git.openRepositoryInParentFolders": "never",
+  "background.autoInstall": false,
+  "workbench.preferredDarkColorTheme": "Visual Studio Dark",
   "workbench.statusBar.visible": false,
+  "workbench.tips.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.stickyScrollMaxItemCount": 1,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.docx": "default"
+  },
   "security.allowedUNCHosts": [
     "wsl.localhost"
   ],
-  "window.customTitleBarVisibility": "never",
-  "workbench.colorTheme": "One Dark Pro Night Flat"
+  "github.copilot.chat.useProjectTemplates": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.nextEditSuggestions.fixes": false,
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+  "github.copilot.chat.showChatButton": false,
+  "github.copilot.advanced": {
+
+  },
+  "tabnine.experimentalAutoImports": true
 }
