@@ -48,6 +48,15 @@ Este repositorio contiene mi configuración personal de Visual Studio Code, enfo
 - [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)  
 
 > Nota: Esta configuración funciona perfectamente **sin integración de Neovim**.
+---
+---
+
+## 📸 Screenshots
+
+
+![VSCode al abrir](https://github.com/zeta-rpg/Config-VSCode-minimalista/blob/main/img-vscode/vscode0.png)
+![VSCode con el explorer](https://github.com/zeta-rpg/Config-VSCode-minimalista/blob/main/img-vscode/vscode1.png)
+![VSCode editando](https://github.com/zeta-rpg/Config-VSCode-minimalista/blob/main/img-vscode/vscode2.png)
 
 ---
 
