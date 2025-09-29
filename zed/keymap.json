@@ -1,0 +1,103 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-j": "workspace::ActivatePaneDown",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-alt-a": "workspace::AddFolderToProject"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-]": "pane::ActivateNextItem",
+      "ctrl-[": "pane::ActivatePreviousItem",
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-j": "workspace::ActivatePaneDown",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-g s": "git::StageAndNext",
+      "ctrl-g r": "git::Restore",
+      "ctrl-g u": "git::UnstageAndNext",
+      "ctrl-g a": "git::StageAll",
+      "ctrl-g u a": "git::UnstageAll",
+      "ctrl-g c": "git::Commit",
+      "ctrl-g p": "git::Push",
+      "ctrl-g m": "git::GenerateCommitMessage",
+      "ctrl-g l": "git::Pull",
+      "ctrl-g d d": "git::Diff",
+      "ctrl-g d a": "git::Amend",
+      "ctrl-g d b": "git::Blame",
+      "ctrl-s": "workspace::Save"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal && vim_operator == none && !VimWaiting",
+    "bindings": {
+      "space e": "workspace::ToggleLeftDock",
+      "space d b": "editor::ToggleBreakpoint",
+      "space d s": "debugger::Start",
+      "space d e": "debugger::Stop",
+      "space d n": "debugger::Continue",
+      "space d c": "debugger::FocusConsole",
+      "space d v": "debugger::FocusVariables",
+      "space d t": "debugger::FocusTerminal",
+      "space d b a": "debugger::ClearAllBreakpoints",
+      "space d s o": "debugger::StepOver",
+      "space d s i": "debugger::StepInto",
+      "space g": "git_panel::ToggleFocus",
+      "space l": "outline_panel::ToggleFocus",
+      "space d d": "diagnostics::Deploy",
+      "space space": "file_finder::Toggle",
+      "space a i": "assistant::InlineAssist",
+      "space a d": "agent::OpenAgentDiff",
+      "space a t": "agent::ToggleFocus",
+      "space t": "terminal_panel::ToggleFocus",
+      "space u n": "workspace::ClearAllNotifications",
+      "space u b": "git::Blame",
+      "space |": "pane::SplitRight",
+      "space -": "pane::SplitDown",
+      "space g g": [
+        "task::Spawn",
+        { "task_name": "Lazygit", "reveal_target": "center" }
+      ],
+
+      "space y": [
+        "task::Spawn",
+        { "task_name": "Yazi", "reveal_target": "center" }
+      ]
+    }
+  },
+  {
+    "context": "Editor && vim_mode == visual && !VimWaiting",
+    "bindings": {
+      "space a i": "assistant::InlineAssist"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl_k": "workspace::ToggleBottomDock",
+      "ctrl-f": "workspace::ToggleZoom",
+      "ctrl-n": "workspace::NewTerminal"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": { "ctrl-r": "project_panel::RemoveFromProject" }
+  },
+  {
+    "context": "Explorer",
+    "bindings": {
+      "a": "project_panel::NewFile",
+      // "A": "project_panel::NewFolder",
+      "d": "project_panel::Delete",
+      "r": "project_panel::Rename",
+      "c": "project_panel::Copy",
+      "x": "project_panel::Cut",
+      "v": "project_panel::Paste"
+    }
+  }
+]
